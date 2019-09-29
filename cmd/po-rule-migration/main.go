@@ -68,7 +68,6 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to decode manifest: %v", err.Error())
 	}
-
 	ruleFiles, err := CMToRule(&configMap)
 	if err != nil {
 		log.Fatalf("failed to transform ConfigMap to rule file crds: %v", err.Error())

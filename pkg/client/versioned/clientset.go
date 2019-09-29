@@ -37,6 +37,7 @@ type Clientset struct {
 
 // MonitoringV1 retrieves the MonitoringV1Client
 func (c *Clientset) MonitoringV1() monitoringv1.MonitoringV1Interface {
+	c.monitoringV1.PrometheusRules("").Create()
 	return c.monitoringV1
 }
 
