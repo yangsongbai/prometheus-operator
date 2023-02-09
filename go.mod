@@ -7,7 +7,7 @@ require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/brancz/gojsontoyaml v0.0.0-20190425155809-e8bd32d46b3d
 	github.com/campoy/embedmd v1.0.0
-	github.com/emicklei/go-restful v2.6.0+incompatible // indirect
+	github.com/emicklei/go-restful v2.16.0+incompatible // indirect
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-kit/kit v0.8.0
 	github.com/go-openapi/spec v0.17.2
